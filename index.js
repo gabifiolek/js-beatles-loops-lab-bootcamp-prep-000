@@ -14,8 +14,9 @@ function johnLennonFacts(facts) {
 
   while (l > 0) {
     results.push(fact[l] + "!!!")
+    l--;
   }
-
+  return results;
 }
 
 function iLoveTheBeatles(number) {
