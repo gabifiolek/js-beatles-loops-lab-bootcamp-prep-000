@@ -25,10 +25,8 @@ function iLoveTheBeatles(number) {
 
   do {
     resutls.push(string);
- +    n++;
- +  }
- +  while(n < 15);
- +  return emptyArray;
+    n++;
+  } while(n < 15);
 
-
+  return resutls;
 }
